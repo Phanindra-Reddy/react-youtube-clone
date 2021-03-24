@@ -1,0 +1,72 @@
+.searched_videos{
+    flex:0.8;
+    background-color: #f9f9f9;
+    font-family: Roboto, Arial, sans-serif;
+    padding:20px;
+}
+
+.searchPage_filters{
+    display: flex;
+    align-items: center;
+    color:#606060;
+    font-size:xx-small !important;
+}
+
+.searchPage_filters > h2{
+    margin-left: 10px;
+}
+
+hr{
+    height:1px;
+    border: 0;
+    background-color: lightgray;
+    margin:10px 0px;
+}
+
+/* ----------------searchedVideos_List------------------ */
+
+.searchedVideos_List{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* .searchedVideos_List .video_thumbnail{
+    width:480px;
+    height: 360px;
+} */
+
+.searchedVideos_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.video_title{
+    font-size: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: lighter;
+    color:#030303;
+    margin-bottom: 15px;
+}
+.channel_img_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.channel_img_title .channel_title{
+    color: #606060;
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight:lighter;
+    margin-left: 10px;
+}
+
+.video_description{
+    color: #606060;
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight:lighter;
+}
